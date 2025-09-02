@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #f8e1e7, #fadadd);
+    background: linear-gradient(rgba(255, 71, 87, 0.4), rgba(255, 71, 87, 0.4)), url('img/bg.jpeg');
     color: #5d3a3a;
     min-height: 100vh;
     display: flex;
@@ -19,7 +19,8 @@ body {
 
 .slideshow-container {
   position: relative;
-  max-width: 800px; 
+  max-width: 100vh; 
+  max-height: auto;
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
